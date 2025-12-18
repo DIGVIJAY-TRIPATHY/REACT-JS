@@ -6,7 +6,7 @@ function Header(){
       <div className="container">
         <div className="logo">
           <i className="fas fa-gem"></i>
-          <span>LUXE</span>
+          <span>DARK WORLD</span>
         </div>
         <div className="menu">
           <ul className="nav-menu">
