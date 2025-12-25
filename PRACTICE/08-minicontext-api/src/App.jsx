@@ -1,11 +1,15 @@
 import './App.css'
+import Login from './Components/Login'
+import Profile from './Components/Profile'
 import UserContextProvider from './context/UserContextProvider'
 
 function App() {
 
   return (
    <UserContextProvider>
-    <h1 className='text-center bg-gray-600 '>React with chai and coffee</h1>
+    <h1>React with chai and coffee</h1>
+    <Login/>
+    <Profile/>
    </UserContextProvider>
   )
 }
