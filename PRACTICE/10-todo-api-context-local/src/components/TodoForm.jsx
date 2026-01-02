@@ -14,8 +14,6 @@ function TodoForm() {
     setTodo("")
   }
 
-
-
   return (
     <form onSubmit={add} className="flex">
       <input
